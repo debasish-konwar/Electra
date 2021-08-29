@@ -52,6 +52,7 @@
             .name {
                 flex-direction: column;
             }
+
         }
         
         .wrapper {
@@ -126,6 +127,7 @@
             text-align: center;
             font-size: 2rem;
             font-weight: bold;
+            margin: 50px 50px;
         }
         
         .jumbotron {
@@ -140,7 +142,7 @@
             position: absolute;
             top: 0;
             left: 0;
-            background-image: url(about/ee-dept.png);
+            background-image: url(ee-dept.png);
             background-repeat: no-repeat;
             background-position: center;
             background-size: cover;
@@ -155,6 +157,38 @@
             font-weight: bold;
             text-align: center;
         }
+        .heading {
+            font-size: 26px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            width: 160px;
+            text-align: center;
+            margin: auto;
+            white-space: nowrap;
+            padding-bottom: 13px;
+        }
+
+        .heading:before {
+            background-color: #c50000;
+            content: '';
+            display: block;
+            height: 3px;
+            width: 75px;
+            margin-bottom: 5px;
+        }
+
+        .heading:after {
+            background-color: #c50000;
+            content: '';
+            display: block;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            height: 3px;
+            width: 75px;
+            margin-bottom: 0.25em;
+        }
     </style>
 </head>
 
@@ -162,7 +196,7 @@
 
     <div class="jumbotron pt-6 container-fluid">
         <br>
-        <h1 class="display-4" style="text-align: center;">About Us</h1>
+        <h1 class="display-4 heading" style="text-align: center;">About Us</h1>
         <br>
         <p class="lead " style="margin-top: 10px; "> <u>Head of the Department:</u> Dr. Jyoti Prakash Mishra</p>
         <p class="lead "> <u>Faculty Advisor:</u> Dr. Prasanta Roy</p>
@@ -199,7 +233,7 @@
     <div class="divider "></div>
 
     <div class="team ">OUR TEAM</div>
-    <div class="rank " style="margin: 50px; ">OUR SENIOR MEMBERS</div>
+    <div class="rank " style="border-bottom: #080808 2px solid;">OUR SENIOR MEMBERS</div>
 
     <div class="wrapper ">
 
@@ -359,7 +393,7 @@
 
 
 
-    <div class="rank " style="margin: 90px; ">OUR JUNIOR MEMBERS</div>
+    <div class="rank " style="margin: 90px 50px;border-bottom: #080808 2px solid;">OUR JUNIOR MEMBERS</div>
 
     <div class="wrapper ">
 
