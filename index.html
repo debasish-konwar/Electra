@@ -11,6 +11,7 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@100;400;900&display=swap" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/b0f1c3ae66.js" crossorigin="anonymous"></script>
+    <script src="/about.js"></script>
 
     <title>About</title>
     <style>
@@ -126,218 +127,227 @@
             font-size: 2rem;
             font-weight: bold;
         }
+        
+        .jumbotron {
+            position: relative;
+            background: none;
+            padding-bottom: 10px;
+        }
+        
+        .jumbotron:after {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-image: url(/ee\ dept.png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            width: 100%;
+            height: 100%;
+            opacity: 0.3;
+            z-index: -1;
+        }
+        
+        .lead {
+            font-weight: 500;
+        }
     </style>
 </head>
 
 <body>
 
-    <div class="twelve mt-3" style="font-size: 2.5rem;margin: 10px;text-align: center; font-weight: bolder; ">About Us</div>
+    <div class="jumbotron pt-6 container-fluid">
+        <h1 class="display-4" ">About Us</h1>
+        <p class="lead " style="margin-top: 10px; "> <u>Head of the Department:</u> Dr. Jyoti Prakash Mishra</p>
+        <p class="lead "> <u>Faculty Advisor:</u> Dr. Prasanta Roy</p>
+        <br>
+        <p style="font-size: 1.2rem;margin-left:auto;margin-right: auto; ">Forming a society of its own under each and every department is an age old tradition in NITS. Hence, Electrical Engineering department too, named as ELECTRA SOCIETY which mainly serves as a link between the teachers and the students. It serves
+            various other purposes for the betterment of the students-</p>
+        <ul >
+            <li>The Electra Society aims at providing guidance to the students in undertaking various activities</li>
+            <li>The society helps in bringing out the best of its student traits</li>
+            <li>Various activities like technical seminars, debates, etc are organized in the field of electrical engineering for the students which enables them to gather knowledge and keep pace with the dynamic technologies.</li>
+        </ul>
 
-    <div>
-        <div class="mb-1">
-            <div class="container-fluid p-0" style="overflow-x: hidden; font-family: var(--font2);">
-                <div class="row no-gutters">
-                    <div class="col-md-1"></div>
-                    <div class="col-md-10" style="text-align: justify; overflow-x: hidden;">
-                        <div style="padding: 30px;padding-bottom: 0;">
-                            <div class="name my-2" style="display: flex;justify-content: space-between;">
-                                <h5 style="display: inline;">Head of the Department: Dr. Jyoti Prakash Mishra</h5>
-                                <h5 style="display: inline;">Faculty Advisor: Dr. Prasanta Roy</h5>
-                            </div>
-                            <p style="font-size: 1.2rem;margin-top: 30px;margin-left:auto;margin-right: auto;">
-                                Forming a society of its own under each and every department is an age old tradition in NITS. Hence, Electrical Engineering department too, named as ELECTRA SOCIETY which mainly serves as a link between the teachers and the students. It serves various
-                                other purposes for the betterment of the students-<br><br>
-                                <ul style="font-size:1rem;margin-left:auto;margin-right: auto;">
-                                    <li>The Electra Society aims at providing guidance to the students in undertaking various activities</li>
-                                    <li>The society helps in bringing out the best of its student traits</li>
-                                    <li>Various activities like technical seminars, debates, etc are organized in the field of electrical engineering for the students which enables them to gather knowledge and keep pace with the dynamic technologies.</li>
-                                </ul>
-                            </p>
-                        </div>
-                        <div class="divider"></div>
-                    </div>
-                    <div class="col-md-1"></div>
-                </div>
-            </div>
+
+
+    </div>
+
+    <div class="twelve mt-3 " style="font-size: 1.5rem;margin: 10px;text-align: center; font-weight: bolder; ">Keywords of Electra Society</div>
+
+    <div class="mb-1 ">
+        <div class="container-fluid p-0 " style="overflow-x: hidden; font-family: var(--font2); width: 80%; margin: auto; ">
+            <ul style="font-size:1rem;margin-left:auto;margin-right: auto; ">
+                <li><span style="font-weight: 600; ">Idea:</span> It requires a small idea to start for something big. Electra Society is open for any productive idea from its fellow members and it implements every feasible idea in the events and activities
+                    that it conducts.</li>
+                <li><span style="font-weight: 600; ">Concept:</span> The objective of the society is the overall development of its students. Be it technical or non-technical, it aims at making its students efficient and capable enough to face any problem
+                    in the real world.</li>
+                <li><span style="font-weight: 600; ">Teamwork:</span> Team efforts make the impossible possible. It is the backbone of Electra Society. Every member contributes in the best possible way to achieve the predefined set of goals.</li>
+                <li> <span style="font-weight: 600; "> Development: </span>A good leadership and a sense of responsibility is very important for the smooth running of a team. Under the proper guidance of the able seniors, the juniors here are guided towards
+                    a better future.
+                </li>
+            </ul>
         </div>
     </div>
 
+    <div class="divider "></div>
 
-    <div class="twelve mt-3" style="font-size: 1.5rem;margin: 10px;text-align: center; font-weight: bolder; ">Keywords of Electra Society</div>
-    <div>
-        <div class="mb-1">
-            <div class="container-fluid p-0" style="overflow-x: hidden; font-family: var(--font2); width: 80%; margin: auto;">
-                <ul style="font-size:1rem;margin-left:auto;margin-right: auto;">
-                    <li><span style="font-weight: 600;">Idea:</span> It requires a small idea to start for something big. Electra Society is open for any productive idea from its fellow members and it implements every feasible idea in the events and activities
-                        that it conducts.</li>
-                    <li><span style="font-weight: 600;">Concept:</span> The objective of the society is the overall development of its students. Be it technical or non-technical, it aims at making its students efficient and capable enough to face any problem
-                        in the real world.</li>
-                    <li><span style="font-weight: 600;">Teamwork:</span> Team efforts make the impossible possible. It is the backbone of Electra Society. Every member contributes in the best possible way to achieve the predefined set of goals.</li>
-                    <li> <span style="font-weight: 600;"> Development: </span>A good leadership and a sense of responsibility is very important for the smooth running of a team. Under the proper guidance of the able seniors, the juniors here are guided towards
-                        a better future.
-                    </li>
-                </ul>
+    <div class="team ">OUR TEAM</div>
+    <div class="rank " style="margin: 50px; ">OUR SENIOR MEMBERS</div>
+
+    <div class="wrapper ">
+
+
+        <div class="card " style="width: 18rem;border-radius: 25px; ">
+            <div class="img-holder ">
+                <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
+                <img src="about/bullbul_bhaiya.jpg " alt=" " class="img-tag ">
             </div>
-        </div>
-    </div>
-
-    <div class="divider"></div>
-
-
-    <div class="team">OUR TEAM</div>
-    <div class="rank" style="margin: 50px;">OUR SENIOR MEMBERS</div>
-
-    <div class="wrapper">
-
-
-        <div class="card" style="width: 18rem;border-radius: 25px;">
-            <div class="img-holder">
-                <img src="Group 1.svg" class="img-bg" alt="Card image cap">
-                <img src="about/bullbul_bhaiya.jpg" alt="" class="img-tag">
-            </div>
-            <div class="card-body text-center">
+            <div class="card-body text-center ">
                 <h3 class="card-title "><strong>Bulbul Hussain</strong></h3>
-                <p class="card-text">President</p>
-                <div style="display: flex;align-items: center;justify-content: space-around;">
-                    <a href="https://www.facebook.com/profile.php?id=100009279933916"> <i class="fab fa-facebook fa-2x"></i></a>
-                    <a href="https://www.linkedin.com/in/bulbul-hussain-2799871a9/" "><i class="fab fa-linkedin fa-2x "></i> </a>
-                    <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
-
-                </div>
-            </div>
-        </div>
-
-        <div class="card " style="width: 18rem;border-radius: 25px; ">
-            <div class="img-holder ">
-                <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
-                <img src="about/gaurav_bhaiya.jpg " alt=" " class="img-tag ">
-            </div>
-            <div class="card-body text-center ">
-                <h3 class="card-title "><strong>Gaurav Singh</strong></h3>
-                <p class="card-text ">General Secretary</p>
+                <p class="card-text ">President</p>
                 <div style="display: flex;align-items: center;justify-content: space-around; ">
-                    <a href="https://www.facebook.com/profile.php?id=100003308682971 "> <i class="fab fa-facebook fa-2x "></i></a>
-                    <a href=" https://www.linkedin.com/in/gaurav-singh-5824881b4/ "><i class="fab fa-linkedin fa-2x "></i> </a>
-                    <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
+                    <a href="https://www.facebook.com/profile.php?id=100009279933916 "> <i class="fab fa-facebook fa-2x "></i></a>
+                    <a href="https://www.linkedin.com/in/bulbul-hussain-2799871a9/ " "><i class="fab fa-linkedin fa-2x "></i> </a>
+            <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
 
-                </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="card " style="width: 18rem;border-radius: 25px; ">
+        <div class="img-holder ">
+            <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
+            <img src="about/gaurav_bhaiya.jpg " alt=" " class="img-tag ">
+        </div>
+        <div class="card-body text-center ">
+            <h3 class="card-title "><strong>Gaurav Singh</strong></h3>
+            <p class="card-text ">General Secretary</p>
+            <div style="display: flex;align-items: center;justify-content: space-around; ">
+                <a href="https://www.facebook.com/profile.php?id=100003308682971 "> <i class="fab fa-facebook fa-2x "></i></a>
+                <a href=" https://www.linkedin.com/in/gaurav-singh-5824881b4/ "><i class="fab fa-linkedin fa-2x "></i> </a>
+                <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
+
             </div>
         </div>
+    </div>
 
-        <div class="card " style="width: 18rem;border-radius: 25px; ">
-            <div class="img-holder ">
-                <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
-                <img src="about/Prastuti.jpg " alt=" " class="img-tag ">
-            </div>
-            <div class="card-body text-center ">
-                <h3 class="card-title "><strong>Prastuti Majumdar</strong></h3>
-                <p class="card-text ">Vice President(General)</p>
-                <div style="display: flex;align-items: center;justify-content: space-around; ">
-                    <a href=" https://www.facebook.com/prastuti.mazumdar.3 "> <i class="fab fa-facebook fa-2x "></i></a>
-                    <a href=" https://www.linkedin.com/in/prastuti-mazumdar-2943b41b5/ "><i class="fab fa-linkedin fa-2x "></i> </a>
-                    <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
+    <div class="card " style="width: 18rem;border-radius: 25px; ">
+        <div class="img-holder ">
+            <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
+            <img src="about/Prastuti.jpg " alt=" " class="img-tag ">
+        </div>
+        <div class="card-body text-center ">
+            <h3 class="card-title "><strong>Prastuti Majumdar</strong></h3>
+            <p class="card-text ">Vice President(General)</p>
+            <div style="display: flex;align-items: center;justify-content: space-around; ">
+                <a href=" https://www.facebook.com/prastuti.mazumdar.3 "> <i class="fab fa-facebook fa-2x "></i></a>
+                <a href=" https://www.linkedin.com/in/prastuti-mazumdar-2943b41b5/ "><i class="fab fa-linkedin fa-2x "></i> </a>
+                <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
 
-                </div>
             </div>
         </div>
+    </div>
 
-        <div class="card " style="width: 18rem;border-radius: 25px; ">
-            <div class="img-holder ">
-                <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
-                <img src="about/arko.png " alt=" " class="img-tag ">
-            </div>
-            <div class="card-body text-center ">
-                <h3 class="card-title "><strong>Arkadeep Kashyap</strong></h3>
-                <p class="card-text ">Vice President(Technical)</p>
-                <div style="display: flex;align-items: center;justify-content: space-around; ">
-                    <a href="https://www.facebook.com/arko.kashyap "> <i class="fab fa-facebook fa-2x "></i></a>
-                    <a href="https://www.linkedin.com/in/arkadeep-kashyap-8a186b1a7/ "><i class="fab fa-linkedin fa-2x "></i> </a>
-                    <a href=" "> <i class="fab fa-github fa-2x "></i></a>
+    <div class="card " style="width: 18rem;border-radius: 25px; ">
+        <div class="img-holder ">
+            <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
+            <img src="about/arko.png " alt=" " class="img-tag ">
+        </div>
+        <div class="card-body text-center ">
+            <h3 class="card-title "><strong>Arkadeep Kashyap</strong></h3>
+            <p class="card-text ">Vice President(Technical)</p>
+            <div style="display: flex;align-items: center;justify-content: space-around; ">
+                <a href="https://www.facebook.com/arko.kashyap "> <i class="fab fa-facebook fa-2x "></i></a>
+                <a href="https://www.linkedin.com/in/arkadeep-kashyap-8a186b1a7/ "><i class="fab fa-linkedin fa-2x "></i> </a>
+                <a href=" "> <i class="fab fa-github fa-2x "></i></a>
 
-                </div>
             </div>
         </div>
-        <div class="card " style="width: 18rem;border-radius: 25px; ">
-            <div class="img-holder ">
-                <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
-                <img src="about/Priyanki.jpg " alt=" " class="img-tag ">
-            </div>
-            <div class="card-body text-center ">
-                <h3 class="card-title "><strong>Priyanki Priyam Borgohain</strong></h3>
-                <p class="card-text ">Assistant General Secretary</p>
-                <div style="display: flex;align-items: center;justify-content: space-around; ">
-                    <a href="https://www.facebook.com/pihu.gohain.58 "> <i class="fab fa-facebook fa-2x "></i></a>
-                    <a href="https://www.linkedin.com/in/priyanki-priyam-borgohain-ab11311b0/ "><i class="fab fa-linkedin fa-2x "></i> </a>
-                    <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
+    </div>
+    <div class="card " style="width: 18rem;border-radius: 25px; ">
+        <div class="img-holder ">
+            <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
+            <img src="about/Priyanki.jpg " alt=" " class="img-tag ">
+        </div>
+        <div class="card-body text-center ">
+            <h3 class="card-title "><strong>Priyanki Priyam Borgohain</strong></h3>
+            <p class="card-text ">Assistant General Secretary</p>
+            <div style="display: flex;align-items: center;justify-content: space-around; ">
+                <a href="https://www.facebook.com/pihu.gohain.58 "> <i class="fab fa-facebook fa-2x "></i></a>
+                <a href="https://www.linkedin.com/in/priyanki-priyam-borgohain-ab11311b0/ "><i class="fab fa-linkedin fa-2x "></i> </a>
+                <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
 
-                </div>
             </div>
         </div>
-        <div class="card " style="width: 18rem;border-radius: 25px; ">
-            <div class="img-holder ">
-                <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
-                <img src="about/Nihal.jpeg " alt=" " class="img-tag ">
-            </div>
-            <div class="card-body text-center ">
-                <h3 class="card-title "><strong>Nihal Dwivedi</strong></h3>
-                <p class="card-text ">Senior Technical Member</p>
-                <div style="display: flex;align-items: center;justify-content: space-around; ">
-                    <a href="https://www.facebook.com/nihal.dwivedi.7549 "> <i class="fab fa-facebook fa-2x "></i></a>
-                    <a href=" https://www.linkedin.com/in/nihal-dwivedi-6623281a0/ "><i class="fab fa-linkedin fa-2x "></i> </a>
-                    <a href=" "> <i class="fab fa-github fa-2x "></i></a>
+    </div>
+    <div class="card " style="width: 18rem;border-radius: 25px; ">
+        <div class="img-holder ">
+            <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
+            <img src="about/Nihal.jpeg " alt=" " class="img-tag ">
+        </div>
+        <div class="card-body text-center ">
+            <h3 class="card-title "><strong>Nihal Dwivedi</strong></h3>
+            <p class="card-text ">Senior Technical Member</p>
+            <div style="display: flex;align-items: center;justify-content: space-around; ">
+                <a href="https://www.facebook.com/nihal.dwivedi.7549 "> <i class="fab fa-facebook fa-2x "></i></a>
+                <a href=" https://www.linkedin.com/in/nihal-dwivedi-6623281a0/ "><i class="fab fa-linkedin fa-2x "></i> </a>
+                <a href=" "> <i class="fab fa-github fa-2x "></i></a>
 
-                </div>
             </div>
         </div>
-        <div class="card " style="width: 18rem;border-radius: 25px; ">
-            <div class="img-holder ">
-                <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
-                <img src="about/kartik.jpg " alt=" " class="img-tag ">
-            </div>
-            <div class="card-body text-center ">
-                <h3 class="card-title "><strong>Kartik Verma</strong></h3>
-                <p class="card-text ">Senior Technical Member</p>
-                <div style="display: flex;align-items: center;justify-content: space-around; ">
-                    <a href=" https://www.facebook.com/kartik.verma.5492 "> <i class="fab fa-facebook fa-2x "></i></a>
-                    <a href=" https://www.linkedin.com/in/kartik07/ "><i class="fab fa-linkedin fa-2x "></i> </a>
-                    <a href=" https://github.com/Kar2410 "> <i class="fab fa-github fa-2x "></i></a>
+    </div>
+    <div class="card " style="width: 18rem;border-radius: 25px; ">
+        <div class="img-holder ">
+            <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
+            <img src="about/kartik.jpg " alt=" " class="img-tag ">
+        </div>
+        <div class="card-body text-center ">
+            <h3 class="card-title "><strong>Kartik Verma</strong></h3>
+            <p class="card-text ">Senior Technical Member</p>
+            <div style="display: flex;align-items: center;justify-content: space-around; ">
+                <a href=" https://www.facebook.com/kartik.verma.5492 "> <i class="fab fa-facebook fa-2x "></i></a>
+                <a href=" https://www.linkedin.com/in/kartik07/ "><i class="fab fa-linkedin fa-2x "></i> </a>
+                <a href=" https://github.com/Kar2410 "> <i class="fab fa-github fa-2x "></i></a>
 
-                </div>
             </div>
         </div>
-        <div class="card " style="width: 18rem; border-radius: 25px; ">
-            <div class="img-holder ">
-                <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
-                <img src="about/Sonali.jpg " alt=" " class="img-tag ">
-            </div>
-            <div class="card-body text-center ">
-                <h3 class="card-title "><strong>Sonali Kanu</strong></h3>
-                <p class="card-text ">Senior Executive Member</p>
-                <div style="display: flex;align-items: center;justify-content: space-around; ">
-                    <a href="https://www.facebook.com/sonalikanu.999 "> <i class="fab fa-facebook fa-2x "></i></a>
-                    <a href="https://www.linkedin.com/in/sonali-kanu-0060a71ab/ "><i class="fab fa-linkedin fa-2x "></i> </a>
-                    <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
+    </div>
+    <div class="card " style="width: 18rem; border-radius: 25px; ">
+        <div class="img-holder ">
+            <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
+            <img src="about/Sonali.jpg " alt=" " class="img-tag ">
+        </div>
+        <div class="card-body text-center ">
+            <h3 class="card-title "><strong>Sonali Kanu</strong></h3>
+            <p class="card-text ">Senior Executive Member</p>
+            <div style="display: flex;align-items: center;justify-content: space-around; ">
+                <a href="https://www.facebook.com/sonalikanu.999 "> <i class="fab fa-facebook fa-2x "></i></a>
+                <a href="https://www.linkedin.com/in/sonali-kanu-0060a71ab/ "><i class="fab fa-linkedin fa-2x "></i> </a>
+                <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
 
-                </div>
             </div>
         </div>
+    </div>
 
-        <div class="card " style="width: 18rem; border-radius: 25px; ">
-            <div class="img-holder ">
-                <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
-                <img src="about/Sarmistha.jpg " alt=" " class="img-tag ">
-            </div>
-            <div class="card-body text-center ">
-                <h3 class="card-title "><strong>Sarmistha Bora</strong></h3>
-                <p class="card-text ">Literary Representative</p>
-                <div style="display: flex;align-items: center;justify-content: space-around; ">
-                    <a href="https://www.facebook.com/sarmistha.bora1 "> <i class="fab fa-facebook fa-2x "></i></a>
-                    <a href=" https://www.linkedin.com/in/sarmistha-bora/ "><i class="fab fa-linkedin fa-2x "></i> </a>
-                    <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
+    <div class="card " style="width: 18rem; border-radius: 25px; ">
+        <div class="img-holder ">
+            <img src="Group 1.svg " class="img-bg " alt="Card image cap ">
+            <img src="about/Sarmistha.jpg " alt=" " class="img-tag ">
+        </div>
+        <div class="card-body text-center ">
+            <h3 class="card-title "><strong>Sarmistha Bora</strong></h3>
+            <p class="card-text ">Literary Representative</p>
+            <div style="display: flex;align-items: center;justify-content: space-around; ">
+                <a href="https://www.facebook.com/sarmistha.bora1 "> <i class="fab fa-facebook fa-2x "></i></a>
+                <a href=" https://www.linkedin.com/in/sarmistha-bora/ "><i class="fab fa-linkedin fa-2x "></i> </a>
+                <!-- <a href=" "> <i class="fab fa-github fa-2x "></i></a> -->
 
-                </div>
             </div>
         </div>
+    </div>
 
 
 
